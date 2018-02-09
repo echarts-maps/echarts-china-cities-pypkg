@@ -1,0 +1,3 @@
+[submodule "echarts_china_cities_pypkg/resources"]
+	path = echarts_china_cities_pypkg/resources
+	url = https://github.com/pyecharts/echarts-china-cities-js.git
