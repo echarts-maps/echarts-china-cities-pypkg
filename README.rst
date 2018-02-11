@@ -16,6 +16,15 @@ Installation
 ================================================================================
 
 
+You can install echarts-china-cities-pypkg via pip:
+
+.. code-block:: bash
+
+    $ pip install echarts-china-cities-pypkg
+
+
+or clone it and install it:
+
 .. code-block:: bash
 
     $ git clone https://github.com/pyecharts/echarts-china-cities-pypkg.git
