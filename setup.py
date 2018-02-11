@@ -103,7 +103,7 @@ class PublishCommand(Command):
 
 
 SETUP_COMMANDS.update({
-    'publish': PublishCommand,
+    'publish': PublishCommand
 })
 
 
