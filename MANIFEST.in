@@ -1,4 +1,4 @@
 include README.rst
 include CHANGELOG.rst
 include echarts_china_cities_pypkg/resources/echarts-china-cities-js/*.js
-include echarts_china_cities_pypkg/resources/registry.json
+include echarts_china_cities_pypkg/resources/echarts-china-cities-js/registry.json

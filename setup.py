@@ -49,14 +49,15 @@ INSTALL_REQUIRES = [
     'lml==0.0.2',
 ]
 SETUP_COMMANDS = install_cmd_for(
-    'echarts-china-cities-js', 'echarts_china_cities_pypkg/resources')
+    'echarts-china-cities-js',
+    'echarts_china_cities_pypkg/resources/echarts-china-cities-js')
 
 
 PACKAGES = find_packages(exclude=['ez_setup', 'examples', 'tests'])
 EXTRAS_REQUIRE = {
 }
 # You do not need to read beyond this line
-PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
+PUBLISH_COMMAND = '{0} setup.py sdist upload -r pypi'.format(
     sys.executable)
 GS_COMMAND = ('gs echarts-china-cities-pypkg v0.0.3 ' +
               "Find 0.0.3 in changelog for more details")
