@@ -8,7 +8,7 @@ current_version: "0.0.4"
 release: "0.0.4"
 copyright_year: 2018
 license: MIT
-nowheels: true
+nowheel: true
 dependencies:
   - lml==0.0.2
   - pyecharts-jupyter-installer==0.0.3

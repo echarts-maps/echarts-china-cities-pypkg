@@ -57,7 +57,7 @@ PACKAGES = find_packages(exclude=['ez_setup', 'examples', 'tests'])
 EXTRAS_REQUIRE = {
 }
 # You do not need to read beyond this line
-PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
+PUBLISH_COMMAND = '{0} setup.py sdist upload -r pypi'.format(
     sys.executable)
 GS_COMMAND = ('gs echarts-china-cities-pypkg v0.0.4 ' +
               "Find 0.0.4 in changelog for more details")
