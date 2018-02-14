@@ -18,14 +18,14 @@ PY26 = PY2 and sys.version_info[1] < 7
 
 NAME = 'echarts-china-cities-pypkg'
 AUTHOR = 'C.W.'
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 EMAIL = 'wangc_2011@hotmail.com'
 LICENSE = 'MIT'
 DESCRIPTION = (
     'pyecharts map extension - china cities - python package'
 )
 URL = 'https://github.com/pyecharts/echarts-china-cities-pypkg'
-DOWNLOAD_URL = '%s/archive/0.0.4.tar.gz' % URL
+DOWNLOAD_URL = '%s/archive/0.0.5.tar.gz' % URL
 FILES = ['README.rst',  'CHANGELOG.rst']
 KEYWORDS = [
     'python'
@@ -50,7 +50,8 @@ INSTALL_REQUIRES = [
     'pyecharts-jupyter-installer==0.0.3',
 ]
 SETUP_COMMANDS = install_cmd_for(
-    'echarts-china-cities-js', 'echarts_china_cities_pypkg/resources')
+    'echarts-china-cities-js',
+    'echarts_china_cities_pypkg/resources/echarts-china-cities-js')
 
 
 PACKAGES = find_packages(exclude=['ez_setup', 'examples', 'tests'])
@@ -59,8 +60,8 @@ EXTRAS_REQUIRE = {
 # You do not need to read beyond this line
 PUBLISH_COMMAND = '{0} setup.py sdist upload -r pypi'.format(
     sys.executable)
-GS_COMMAND = ('gs echarts-china-cities-pypkg v0.0.4 ' +
-              "Find 0.0.4 in changelog for more details")
+GS_COMMAND = ('gs echarts-china-cities-pypkg v0.0.5 ' +
+              "Find 0.0.5 in changelog for more details")
 NO_GS_MESSAGE = ('Automatic github release is disabled. ' +
                  'Please install gease to enable it.')
 UPLOAD_FAILED_MSG = (

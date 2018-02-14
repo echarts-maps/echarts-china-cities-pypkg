@@ -14,5 +14,6 @@ except ImportError:
 
 {% block additional_setup_commands %}
 SETUP_COMMANDS = install_cmd_for(
-    'echarts-china-cities-js', 'echarts_china_cities_pypkg/resources')
+    'echarts-china-cities-js',
+    'echarts_china_cities_pypkg/resources/echarts-china-cities-js')
 {% endblock %}
