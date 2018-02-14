@@ -47,7 +47,7 @@ CLASSIFIERS = [
 
 INSTALL_REQUIRES = [
     'lml==0.0.2',
-    'pyecharts-jupyter-installer=0.0.3',
+    'pyecharts-jupyter-installer==0.0.3',
 ]
 SETUP_COMMANDS = install_cmd_for(
     'echarts-china-cities-js', 'echarts_china_cities_pypkg/resources')

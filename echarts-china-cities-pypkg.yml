@@ -11,5 +11,5 @@ license: MIT
 nowheels: true
 dependencies:
   - lml==0.0.2
-  - pyecharts-jupyter-installer=0.0.3
+  - pyecharts-jupyter-installer==0.0.3
 description: "pyecharts map extension - china cities - python package"
