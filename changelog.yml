@@ -1,0 +1,13 @@
+releases:
+- changes:
+  - action: Updated
+    details:
+    - compressed 6 first line cities
+  date: 04.03.2018
+  version: 0.0.8
+- changes:
+  - action: Updated
+    details:
+    - all 370 Chinese cities
+  date: 04.03.2018
+  version: 0.0.7
