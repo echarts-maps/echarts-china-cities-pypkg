@@ -2,11 +2,12 @@
 echarts-china-cities-pypkg
 ================================================================================
 
-.. image:: https://api.travis-ci.org/pyecharts/echarts-china-cities-pypkg.svg?branch=master
+.. image:: https://api.travis-ci.org/pyecharts/echarts-china-cities-pypkg.svg
    :target: http://travis-ci.org/pyecharts/echarts-china-cities-pypkg
 
-.. image:: https://codecov.io/gh/pyecharts/echarts-china-cities-pypkg/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/pyecharts/echarts-china-cities-pypkg
+.. image:: https://codecov.io/github/pyecharts/echarts-china-cities-pypkg/coverage.png
+   :target: https://codecov.io/github/pyecharts/echarts-china-cities-pypkg
+
 
 
 The project packages `echarts-china-cities-js <https://github.com/pyecharts/echarts-china-cities-js>`_
